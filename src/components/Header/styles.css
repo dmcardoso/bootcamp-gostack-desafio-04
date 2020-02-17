@@ -1,0 +1,20 @@
+header {
+    background-color: #4A90E2;
+    height: 64px;
+    padding: 20px 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 121px;
+    height: 24px;
+}
+
+header .profile {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}

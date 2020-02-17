@@ -1,0 +1,53 @@
+.post {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.post + .post {
+    margin-top: 20px;
+}
+
+.post .profile {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.post .profile .name-data {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.post .profile .name-data .name {
+    font-size: 14px;
+    font-weight: bold;
+    color : #4A4A4A;
+}
+
+.post .profile .name-data .data {
+    font-size: 11px;
+    color : #9A9A9A;
+}
+
+.post > .content {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 22px;
+    padding-bottom: 20px;
+    color: #3E3E3E;
+    border-bottom: 1px solid #eee;
+}
+
+.post .comments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+}
+
